@@ -1,0 +1,20 @@
+.col{
+    border: 1px dashed black;
+    background-color: royalblue;
+    height: 50px;
+}
+
+[class*="col-"]{
+    border: 1px dashed black;
+    background-color: red;
+    height: 50px;
+}
+.col-sm-6{
+    background-color: springgreen;
+}
+@media screen and ( min-width: 576px){
+
+.col-xs-12{
+    background-color: slateblue;
+}
+}
